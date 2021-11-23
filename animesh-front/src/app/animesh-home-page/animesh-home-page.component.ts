@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-animesh-home-page',
   templateUrl: './animesh-home-page.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnimeshHomePageComponent implements OnInit {
 
-  constructor() { }
+  constructor( private router_:Router) { }
 
   ngOnInit(): void {
   }
